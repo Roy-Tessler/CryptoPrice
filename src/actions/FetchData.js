@@ -1,6 +1,7 @@
 import axios from "axios";
 import { APIKEY } from "../../secrets";
 import { FETCH_ERROR, FETCHING_DATA, FETCH_SUCCESS } from "./actionCreators";
+
 export default function FetchData() {
   return dispatch => {
     dispatch({ type: FETCHING_DATA });
